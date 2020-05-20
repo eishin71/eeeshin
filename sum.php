@@ -1,24 +1,17 @@
 <?php
 //1
 function product($max){
-    $result =0;
-    for($i = 1; $i < $max; $i++){
-        $result+= $i;
-    }
-    return $result*2;
+    return $max*2;
 }
-echo product(1);
+echo product(87);
 echo"\n";
+
 //2
 function f($a,$b){
-    $result =0;
-    for($i =1; $i < $a+$b ; $i++){
-        $result+= $i;
-    }
-    return $result;
+    return $a+$b;
 }
 echo f(2,6);
-echo"\n";
+echo "\n";
 
 //3
 function A($arr){
